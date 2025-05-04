@@ -13,7 +13,7 @@ public class Payment extends BaseModel {
     private String referenceNumber;
     private int amount;
 
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private PaymentProvider paymentProvider;
     @Enumerated(EnumType.ORDINAL)
     private PaymentMode paymentMode;
